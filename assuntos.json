@@ -1,0 +1,221 @@
+{
+    "historia": {
+
+        "Colonização": [
+            "26 de janeiro de 1500",
+            "Pau-brasil"
+        ],
+
+        "Independência": [
+            "7 de setembro 1822",
+            "Dom Pedro I"
+        ],
+
+        "Capitanias Hereditárias": [
+            "1534 e 1536",
+            "Dom Pedro III",
+            "14 lotes"
+        ],
+
+        "Capitania Pernambuco":[
+            "Nova lusitânia",
+            "Duarde Coelho",
+            "1535",
+            "Ocupado por tabajaras"
+        ],
+
+        "Ocupação Holandesa":[
+            "1630 a 1654",
+            "Mauricio de nassau 1637 até 1644",
+            "Incendiou Olinda",
+            "Tolerância religiosa",
+            "Primeira tentativa em salvador 1624",
+            "Expansão para paraíba, rio grande do norte e alagoas"
+        ],
+
+        "Batalhas dos Guararapes ":[
+            "1648 e 1649",
+            "Francisco Barreto de Menezes",
+            "Coronel Van den Brincke morto em ação",
+            "Sentimento de identidade brasileira"
+
+        ],
+
+        "Inssureição pernambucana":[
+            "1645",
+            "Batalha dos Guararapes",
+            "Forças de portugal 1651",
+            "Portugal pagou indenização e 4 milhões de cruzados"
+        ],
+
+        "Guerra dos Mascates":[
+            "1710 a 1711",
+            "Elevação de recife a vila",
+            "Bernardo Vieira de Melo",
+            "Invadiram recife e fizeram várias exigências"
+        ],
+
+        "Revolução Pernambucana":[
+            "6 de março de 1817",
+            "Desvalorização do açucar e aumento de impostos",
+            "Familia real em 1808",
+            "Imposto por causa da invasão a guiana francesa",
+            "Lei orgância",
+            "Frei Caneca irmão de josé bonifácio",
+            "74 dias",
+            "Rio de janeiro ocupou Pernambuco"
+        ],
+
+        "Confederação do Equador":[
+            "1824",
+            "Dissolução da assembleia constituinte em 1823",
+            "Manuel Andrade",
+            "Paraiba, rio grande do norte e ceará aderiram",
+            "Tentaram subornar o general Cochrane",
+            "Consolidação de Dom Pedro I porém com desgaste politico e custo de guerra"
+        ],
+
+        "Vinda da Familia Real":[
+            "1807",
+            "Napoleão bonaparte declarou bloqueio continentam",
+            "Invasão das tropas francesas a portugal"
+        ],
+
+        "Cabanagem":[
+            "1835 a 1840",
+            "Belém do pará",
+            "Morte de bernado sousa lobo",
+            "Elite descontente + Povo, tomaram o poder",
+            "Félix marcha foi o lider por 1 mês foi morto por tentar fazer acordo",
+            "Francisco Vinagre tenta fazer acordo e é afastado",
+            "Eduardo Nogueira ultimo lider",
+            "Barão de caçapava caçou todos, 30 mil pessoas mortas"
+        ]
+
+    },
+
+    "direito constitucional":{
+        "art 1":[
+            "Principios",
+            "I - Soberania",
+            "II - Cidadania",
+            "III - Dignidade humana",
+            "IV - Valores sociais do trabalho e livre iniciativa",
+            "V - Pluralismo político",
+            "O poder emana do povo que exerce por meio de representantes"
+        ],
+
+        "art 2":[            
+            "São poderes da união independente e harmônicos, executivo legislativo e judiciário"
+        ],
+
+        "art 3":[
+            "Objetivos",
+            "Sociedade livre, justa e solidária",
+            "Desenvolvimento nacional",
+            "Erradicar a pobreza e reduzir desigualdade",
+            "Promover o bem de todos, sem preconceitos de origem"
+        ],
+
+        "art 4":[
+            "Principios internacionais da CF/88",
+            "I - Independência nacional",
+            "II - Prevalência dos direitos humanos",
+            "III - Autodeterminação dos povos",
+            "IV - Não intervenção",
+            "V - Igualdade entre estados",
+            "VI - Defesa da paz",
+            "VII - Solução pacífica dos conflitos",
+            "VIII - Repúdio ao terrorismo e ao racismo",
+            "IX - Cooperação entre povos para progresso humano",
+            "X - Concessão de asilo político",
+            "Parágrafo único: O brasil buscará integração com a comunidade latino-americana"
+        ],
+        "art 5": [
+            "Todos são iguais perante a lei garantindo aos residentes direito à vida, liberdade, igualdade, segurança e propriedade",
+            "I - Homens e mulheres são iguais em direitos e obrigações",
+            "II - Ninguém será obrigado a fazer ou deixar de fazer algo senão em virtude de lei",
+            "III - Ninguém será submetido à tortura ou tratamento desumano",
+            "IV - Livre manifestação do pensamento, vedado anonimato",
+            "V - Direito de resposta e indenização por dano",
+            "VI - Liberdade de consciência e crença",
+            "VII - Assistência religiosa em internação coletiva",
+            "VIII - Ninguém perde direitos por crença religiosa ou política",
+            "IX - Livre expressão intelectual, artística e científica",
+            "X - Invioláveis intimidade, honra, vida privada e imagem",
+            "XI - Casa é asilo inviolável",
+            "XII - Sigilo de correspondência e comunicações",
+            "XIII - Livre exercício profissional conforme lei",
+            "XIV - Acesso à informação e sigilo da fonte",
+            "XV - Livre locomoção em tempo de paz",
+            "XVI - Direito de reunião pacífica sem armas",
+            "XVII - Liberdade de associação lícita",
+            "XVIII - Associações independem de autorização",
+            "XIX - Dissolução de associação somente por decisão judicial",
+            "XX - Ninguém é obrigado a se associar",
+            "XXI - Associações podem representar filiados",
+            "XXII - Garantido direito de propriedade",
+            "XXIII - Propriedade deve cumprir função social",
+            "XXIV - Desapropriação com indenização justa",
+            "XXV - Uso de propriedade particular em perigo público",
+            "XXVI - Pequena propriedade rural protegida de penhora",
+            "XXVII - Direito autoral garantido",
+            "XXVIII - Proteção às participações e fiscalização econômica",
+            "XXIX - Proteção a inventos industriais e marcas",
+            "XXX - Garantido direito de herança",
+            "XXXI - Sucessão de estrangeiros regulada pela lei brasileira",
+            "XXXII - Estado promoverá defesa do consumidor",
+            "XXXIII - Direito a receber informações públicas",
+            "XXXIV - Direito de petição e certidões sem taxas",
+            "XXXV - Judiciário apreciará lesão ou ameaça a direito",
+            "XXXVI - Lei não prejudicará direito adquirido",
+            "XXXVII - Não haverá tribunal de exceção",
+            "XXXVIII - Instituição do júri reconhecida",
+            "XXXIX - Não há crime sem lei anterior",
+            "XL - Lei penal retroage apenas para beneficiar réu",
+            "XLI - Lei punirá discriminação contra direitos fundamentais",
+            "XLII - Racismo é crime inafiançável e imprescritível",
+            "XLIII - Tortura, tráfico e terrorismo são crimes inafiançáveis",
+            "XLIV - Grupos armados contra ordem constitucional são crime",
+            "XLV - Pena não passará da pessoa do condenado",
+            "XLVI - Lei regulará individualização da pena",
+            "XLVII - Não haverá penas de morte, perpétuas ou cruéis",
+            "XLVIII - Pena cumprida conforme natureza do delito",
+            "XLIX - Presos têm direito à integridade física e moral",
+            "L - Presidiárias podem permanecer com filhos na amamentação",
+            "LI - Brasileiro nato não será extraditado",
+            "LII - Não haverá extradição por crime político",
+            "LIII - Ninguém será processado sem autoridade competente",
+            "LIV - Ninguém será privado da liberdade sem devido processo legal",
+            "LV - Garantido contraditório e ampla defesa",
+            "LVI - Provas ilícitas são inadmissíveis",
+            "LVII - Ninguém será considerado culpado antes do trânsito em julgado",
+            "LVIII - Civilmente identificado não sofrerá identificação criminal",
+            "LIX - Admitida ação privada em ação pública não proposta",
+            "LX - Publicidade processual pode ser restringida",
+            "LXI - Prisão apenas em flagrante ou ordem judicial",
+            "LXII - Prisão comunicada imediatamente ao juiz e família",
+            "LXIII - Preso informado de direitos e assistência",
+            "LXIV - Preso tem direito à identificação dos responsáveis",
+            "LXV - Prisão ilegal será relaxada",
+            "LXVI - Liberdade provisória quando cabível",
+            "LXVII - Não haverá prisão civil por dívida",
+            "LXVIII - Habeas corpus protege liberdade de locomoção",
+            "LXIX - Mandado de segurança protege direito líquido e certo",
+            "LXX - Mandado de segurança coletivo",
+            "LXXI - Mandado de injunção por ausência de norma regulamentadora",
+            "LXXII - Habeas data assegura acesso e correção de dados",
+            "LXXIII - Ação popular protege patrimônio e moralidade pública",
+            "LXXIV - Estado prestará assistência jurídica gratuita",
+            "LXXV - Estado indenizará erro judiciário",
+            "LXXVI - Registro de nascimento e certidão de óbito gratuitos",
+            "LXXVII - Habeas corpus e habeas data gratuitos",
+            "LXXVIII - Garantida duração razoável do processo",
+            "LXXIX - Direito à proteção de dados pessoais",
+            "§1 - Direitos fundamentais têm aplicação imediata",
+            "§2 - Direitos constitucionais não excluem outros direitos",
+            "§3 - Tratados de direitos humanos podem equivaler à emenda constitucional",
+            "§4 - Brasil se submete ao Tribunal Penal Internacional"
+        ]
+    }
+}
