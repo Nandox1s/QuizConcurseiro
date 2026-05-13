@@ -30,6 +30,9 @@ def modo_descobrir_subassunto(assunto, dados):
 
             resposta = input("\nQual o sub-assunto? ").strip().lower()
 
+            if assunto == "x":
+                break
+
 
             if resposta == sub_assunto_escolhido.lower():
 
@@ -64,6 +67,9 @@ def modo_descobrir_caracteristicas(assunto, dados):
 
         sub_assunto_escolhido = input("Qual sub-assunto: ").strip().lower()
 
+        if sub_assunto_escolhido == "x":
+            break
+
         caracteristicas = dados[assunto][sub_assunto_escolhido].copy()
 
         print(f"\nSub-assunto:\n{sub_assunto_escolhido}")
@@ -72,11 +78,13 @@ def modo_descobrir_caracteristicas(assunto, dados):
 
 
         for posicao, caracteristica in enumerate(caracteristicas, start=1):
-            
-            quantidaAssunto += 1
 
             resposta = input(f"Característica {posicao}: ").strip()
 
+            if resposta == "x":
+                break
+                
+            quantidaAssunto += 1
 
             if resposta.lower() == caracteristica.lower():
 
@@ -94,37 +102,39 @@ def modo_descobrir_caracteristicas(assunto, dados):
 
                 print(f"Resposta CORRETA: {caracteristica}\n")
 
-        porcentagemTotal = (pontuação/quantidaAssunto)*100
-        print(f"\nFim do sub-assunto... Sua pontuação foi de {pontuação:.2f} de {quantidaAssunto}... {porcentagemTotal}%")
+        try:
+            porcentagemTotal = (pontuação/quantidaAssunto)*100
+        except:
+            porcentagemTotal = 0
 
+        print(f"\nFim do sub-assunto... Sua pontuação foi de {pontuação:.2f} de {quantidaAssunto} total / {porcentagemTotal}%")
 
-    print("\nTodos os sub-assuntos acabaram.")
-
-
-
+#Programa principal
 with open("assuntos.json", "r", encoding="utf-8") as arquivo:
     dados = json.load(arquivo)
 
+assunto = ""
 
-assunto = input("Escolha um assunto: ").strip().lower()
+while assunto != "x":
 
+    assunto = input("Escolha um assunto: ").strip().lower()
 
-while assunto not in dados:
+    if assunto in dados:
 
-    print("Assunto não encontrado.")
+        if assunto.lower() == "direito constitucional":
 
-    assunto = input("Escolha um assunto: ").strip().lower
+            modo_descobrir_caracteristicas(assunto, dados)
 
+        else:
 
+            modo_descobrir_subassunto(assunto, dados)
+    
+    if assunto == "x":
 
-if assunto.lower() == "direito constitucional":
+        print("Finalizando programa em 10s")
+        time.sleep(10)
+        break
 
-    modo_descobrir_caracteristicas(assunto, dados)
+    if assunto not in dados:
 
-else:
-
-    modo_descobrir_subassunto(assunto, dados)
-
-
-print("Finalizando programa em 10s")
-time.sleep(10)
+        print("assunto não encontrado")
