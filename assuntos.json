@@ -2,99 +2,192 @@
     "historia": {
 
         "Colonização": [
-            "26 de janeiro de 1500",
-            "Pau-brasil"
-        ],
-
-        "Independência": [
-            "7 de setembro 1822",
-            "Dom Pedro I"
+            "22 de abril de 1500",
+            "Pedro Álvares Cabral",
+            "Pau-brasil",
+            "Escambo com indígenas"
         ],
 
         "Capitanias Hereditárias": [
-            "1534 e 1536",
-            "Dom Pedro III",
-            "14 lotes"
+            "1534",
+            "Dom João III",
+            "15 quinhões e 12 donatários",
+            "Sistema hereditário",
+            "Objetivo de ocupar e proteger o território contra franceses e piratas",
+        "Pernambuco e são vicente são as capitanias que deram certo"
         ],
 
-        "Capitania Pernambuco":[
-            "Nova lusitânia",
-            "Duarde Coelho",
+        "Capitania Pernambuco": [
             "1535",
-            "Ocupado por tabajaras"
+            "Nova Lusitânia",
+            "Duarte Coelho",
+            "Ocupada por tabajaras e Caetés",
+            "Maior sucesso econômico",
+            "Produção de açúcar boa por solo fértil"
         ],
 
-        "Ocupação Holandesa":[
-            "1630 a 1654",
-            "Mauricio de nassau 1637 até 1644",
-            "Incendiou Olinda",
-            "Tolerância religiosa",
-            "Primeira tentativa em salvador 1624",
-            "Expansão para paraíba, rio grande do norte e alagoas"
+        "Ocupação Holandesa": [
+            "Primeira tentativa em Salvador 1624",
+            "período de ocupação 1630 a 1654",
+            "Companhia das Índias Ocidentais",
+            "Invasão de Pernambuco",
+            "Incêndio de Olinda mudando a sede para recife",
+            "Maurício de Nassau 1637 até 1644",
+            "Tolerância religiosa e Urbanização do Recife",
+            "Expansão para Paraíba, Rio Grande do Norte e Ceará",
+            "Interesse no açúcar"
         ],
 
-        "Batalhas dos Guararapes ":[
-            "1648 e 1649",
-            "Francisco Barreto de Menezes",
-            "Coronel Van den Brincke morto em ação",
-            "Sentimento de identidade brasileira"
-
+        "Insurreição Pernambucana": [
+            "Contra domínio holandês 1645 a 1654",
+            "Crises econômicas e intolerância dos novos governantes holandeses",
+            "Lider andré Vidal de Negreiros",
+            "João Fernandes Vieira governador da liberdade",
+            "Henrique Dias tropas negras",
+            "Felipe Camarão tropas indígenas",
+            "Batalhas dos Guararapes",
+            "Ajuda militar portuguesa próximo do fim",
+            "Expulsão dos holandeses luta final Campina do Taborda"
         ],
 
-        "Inssureição pernambucana":[
-            "1645",
-            "Batalha dos Guararapes",
-            "Forças de portugal 1651",
-            "Portugal pagou indenização e 4 milhões de cruzados",
-            "Henrique Dias liderava tropas negras",
-            "Felipe Camarão comandava tropas indígenas",
-            "André Vidal de Negreiros"
+        "Batalhas dos Guararapes": [
+            "Montes Guararapes, 1648 e 1649",
+            "Vitória luso-brasileira",
+            "Henrique Dias",
+            "Felipe Camarão",
+            "André Vidal de Negreiros",
+            "Comando geral Francisco Barreto de Menezes",
+            "Sentimento de identidade brasileira",
+            "Origem simbólica do Exército Brasileiro",
+            "Morte do comandante holandês Coronel Van den Brincke"
         ],
 
-        "Guerra dos Mascates":[
-            "1710 a 1711",
-            "Elevação de recife a vila",
-            "Bernardo Vieira de Melo",
-            "Invadiram recife e fizeram várias exigências"
+        "Guerra dos Mascates": [
+            "Elite rural contra comerciantes portugueses 1710 a 1711",
+            "motivada pela elevação de Recife à vila e Olinda endividada",
+            "Lider Bernardo Vieira de Melo, propos um República"
         ],
 
-        "Revolução Pernambucana":[
+        "Vinda da Família Real": [
+            "1808 sob ameçada de Napoleão Bonaparte e Bloqueio Continental",
+            "Elevação do Brasil a Reino Unido a Portugal e Algarves em 1815",
+            "Abertura dos portos às nações amigas, pondo fim ao monópolio colonial",
+            "Rio de Janeiro virou sede do Reino"
+        ],
+
+        "Revolução Pernambucana": [
             "6 de março de 1817",
-            "Desvalorização do açucar e aumento de impostos",
-            "Familia real em 1808",
-            "Imposto por causa da invasão a guiana francesa",
-            "Lei orgância",
-            "Frei Caneca irmão de josé bonifácio",
-            "74 dias",
-            "Rio de janeiro ocupou Pernambuco"
+            "Influência iluminista republicano e separatista",
+            "Crise do açúcar e Aumento de impostos",
+            "República independente 74 dias",
+            "Líder: Domingos José Martins e Padre João Ribeiro",
+            "Líder: Padre Roma executado",
+            "Líder: Padre João Ribeiro suicidou-se"
         ],
 
-        "Confederação do Equador":[
-            "1824",
-            "Dissolução da assembleia constituinte em 1823",
-            "Manuel Andrade",
-            "Paraiba, rio grande do norte e ceará aderiram",
-            "Tentaram subornar o general Cochrane",
-            "Consolidação de Dom Pedro I porém com desgaste politico e custo de guerra"
+        "Independência": [
+            "7 de setembro de 1822",
+            "Dom Pedro I por causa de pressão para sua volta",
+            "Grito do Ipiranga",
+            "Expulsão de salvador e do norte por lord cochrane",
+            "Fim do domínio português",
+            "Reconhecimento em 1825"
         ],
 
-        "Vinda da Familia Real":[
-            "1807",
-            "Napoleão bonaparte declarou bloqueio continentam",
-            "Invasão das tropas francesas a portugal"
+        "Confederação do Equador": [
+            "Movimento republicano em 1824",
+            "Frei Caneca",
+            "Lider Manuel de Carvalho Pais de Andrade",
+            "República separatista",
+            "Dissolução da Assembleia Constituinte em 1823 e outorga da constituição de 1824",
+            "Pernambuco, Paraíba, Ceará e Rio Grande do Norte",
+            "Repressão imperial por Cochrane e Francisco Lima e Silva"
         ],
 
-        "Cabanagem":[
-            "1835 a 1840",
-            "Belém do pará",
-            "Morte de bernado sousa lobo",
-            "Elite descontente + Povo, tomaram o poder",
-            "Félix marcha foi o lider por 1 mês foi morto por tentar fazer acordo",
-            "Francisco Vinagre tenta fazer acordo e é afastado",
-            "Eduardo Nogueira ultimo lider",
-            "Barão de caçapava caçou todos, 30 mil pessoas mortas"
+        "Cabanagem": [
+            "Belém do Pará 1835 a 1840",
+            "extrema pobreza da população e marginalização política pós-independência",
+            "Líder1: Félix Malcher",
+            "Líder2: Francisco Vinagre",
+            "Líder3: Eduardo Angelim",
+            "Violenta repressão imperial por Brigadeiro Soares",
+            "Cerca de 30 mil mortos",
+            "Morte do governador Bernardo lobo de souza"
+        ],
+
+        "Revolução Praieira": [
+            "Pernambuco 1848 a 1850",
+            "Partido da Praia Liberalismo por meio do jornal Diário novo",
+            "Contra domínio das oligarquias e monópolio", 
+            "Manifesto ao Mundo: voto livre liberdade de impressa garantia de trabalho e comérico so para brasileiros e outros",
+            "Não falaram sobre fim da escravidão",
+            "Antônio Pinto Chichorro foi demitido",
+            "Queriam que os brasileiros pudessem viver de comérico",
+            "Líder: Pedro Ivo conseguiu fugir mas morreu a caminho da europa",
+            "Líder: Nunes machado deputado",
+            "Líder: Antônio Pinto Chichorro desembargador e presidente de pernambuco"
+        ],
+
+        "República": [
+            "Proclamação da República 1889", 
+            "A Abolição da Escravidão 1888",
+            "O exército, que se sentia negligenciado pelo Imperador",
+            "Marechal Deodoro da Fonseca primeiro presidente",
+            "D. Pedro II aceitou o exílio com serenidade",
+            "O fim da monarquia é descrito como um processo tranquilo"
+        ],
+
+        "Frevo": [
+            "Surgiu no final do século XIX entre bandas militares e populares",
+            "Recife e Olinda",
+            "Passistas mistura de marcha, maxixe e capoeira",
+            "Carnaval pernambucano",
+            "Passistas",
+            "Patrimônio Cultural Imaterial da Humanidade Reconhecido pela UNESCO em 2012"
+        ],
+
+        "Maracatu": [
+            "Herança afrodescendente",
+            "Cortejo cultural",
+            "Nação e Rural",
+            "Alfaias",
+            "Ligação com religiões afro-brasileiras",
+            "Rei e rainha do Congo"
+        ],
+
+        "Culinária Pernambucana": [
+            "Influência indígena",
+            "Influência africana",
+            "Influência portuguesa",
+            "Bolo de rolo",
+            "Cartola",
+            "Tapioca",
+            "Carne de sol",
+            "Macaxeira",
+            "Peixes e frutos do mar",
+            "pé-de-muleque"
+        ],
+
+        "Festas Populares": [
+            "Carnaval de Recife e Olinda",
+            "Galo da Madrugada",
+            "São João",
+            "Ciranda",
+            "Caboclinhos",
+            "Festas religiosas",
+            "Cultura popular pernambucana"
+        ],
+
+        "Herança Afrodescendente em Pernambuco": [
+            "Influência africana",
+            "Maracatu",
+            "Religiões afro-brasileiras",
+            "Capoeira",
+            "Música e dança",
+            "Comunidades quilombolas",
+            "Henrique Dias",
+            "Culinária afro-brasileira"
         ]
-
     },
 
     "direito constitucional":{
@@ -220,5 +313,106 @@
             "§3 - Tratados de direitos humanos podem equivaler à emenda constitucional",
             "§4 - Brasil se submete ao Tribunal Penal Internacional"
         ]
+    },
+
+    "português":{
+
+        "tipos-textuais":[
+            "Narrativo: Enredo com personagens e ações",
+            "Expositivo: expoir ideias, sem defender ponto de vista",
+            "Descritivo: Expõe algo, alguma coisa ou um acontecimento",
+            "Injuntivo: Oferece instruções",
+            "Dissertativo-argumentativo: defende ponto de vista usando argumentos"
+        ],
+
+        "Acentuação-gráfica":[
+            "Monosílabas tônicas: a pa ma e pe ve o so e plural",
+            "Monosílabas tônicas por ditongo aberto: ei eu oi",
+            "Monósilabas tônicas que não recebem: par, nus, vez, tu, noz, quis",
+            "Não existe mais acento em leem e etc",
+            "Oxítonas: terminadas em a e o e plural",
+            "Paroxítonas: l n r x i u um uns ã ãos ons e ditongos crescentes",
+            "Proparoxítonas: Todas são acentuadas",
+            "Ditongos abertos éu leva acento já éi e ói não",
+            "Hiato: i ou u tônico seguidos ou não de S"
+        ],
+
+        "ortografia:alfabeto":[
+            "26 letras",
+            "vogais a e i o u",
+            "Restante consoantes"
+        ],
+        
+        "ortografia:x":[
+            "Depois de sílabas iniciadas me me e en ",
+            "Depois de ditongos",
+            "Palavras de origem africana ou indígena"
+        ],
+
+        "ortografia:s":[
+            "Depois de ditongos",
+            "Cuja as palavras primitivas usam S",
+            "Em sufixos ês e esa ao indicarem título",
+            "Nos sufixos formadores de adjetivos ense oso e osa"
+        ],
+
+        "ortografia:s/ss/ç":[
+            "S: aparece entre vogal e uma consoante",
+            "SS: palavra entre duas vogais",
+            "Ç: Palavra estrangeira"
+        ],
+
+        "ortografia:porquês":[
+            "Por que: usado para perguntas",
+            "Porque: usado para resostas",
+            "por quê: ultima palavra da frase",
+            "porquê: substantivo, costuma vir acompanhado de artigo"
+        ],
+
+        "ortografia:parônimos/homônimos":[
+            "parônimos: poussem grafia e pronúncia semelhantes , significado distinto",
+            "homônimos: poussem grafia e pronúncia iguais , significado distinto"
+        ],
+
+        "ortografia:j/g":[
+            "G: usada em agem igem e ugem",
+            "G: em ágio égio ígio ógio úgrio",
+            "G: verbos terminados em ger e gir",
+            "G: derivadas de G também",
+            "J: derivadas de J",
+            "J: terminados em jar ou jear no infinitivo",
+            "J: Origem africana tupi ou árabe"
+        ],
+
+        "ortografia:h":[
+            "final de interjeições",
+            "etimologia",
+            "dígrafos",
+            "palavras compostas"
+        ],
+
+        "ortografia:sessão/cessão/secção":[
+            "sessão: substantivo indica tempo dedicado a algo",
+            "cessão: ato de  ceder algo",
+            "Seção: ato de dividir algo"
+        ],
+
+        "hífen":[
+            "palavras compostas que mantém sua autonomia",
+            "termina e começa com a mesma vogal",
+            "segunda palavra que começam com h",
+            "ligar pronomes oblíquos átonos",
+            "adjetivos compostos",
+            "préfixos tônicos",
+            "palavras terminadas em açu guaçu mirim",
+            "circum mal e pan antes das vogais m n h",
+            "depois do súxifo bem",
+            "Palavaras: anti auto contra micro super ex vice"
+        ],
+
+        "classe-palavras":[
+            ""
+        ]
+        
     }
 }

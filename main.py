@@ -30,7 +30,7 @@ def modo_descobrir_subassunto(assunto, dados):
 
             resposta = input("\nQual o sub-assunto? ").strip().lower()
 
-            if assunto == "x":
+            if resposta == "x":
                 break
 
 
@@ -54,7 +54,7 @@ def modo_descobrir_subassunto(assunto, dados):
 
     print("\nTodos os sub-assuntos acabaram.")
 
-def modo_descobrir_caracteristicas(assunto, dados):
+def modo_descobrir_caracteristicas(assunto, dados, ordem):
 
     pontuação = 0 
     quantidaAssunto = 0
@@ -70,44 +70,136 @@ def modo_descobrir_caracteristicas(assunto, dados):
         if sub_assunto_escolhido == "x":
             break
 
-        caracteristicas = dados[assunto][sub_assunto_escolhido].copy()
+        try: 
+            caracteristicas = dados[assunto][sub_assunto_escolhido].copy()
+        except:
+            print("Sub-assunto não encontrado\n")
+            continue
 
-        print(f"\nSub-assunto:\n{sub_assunto_escolhido}")
+        if ordem == True:
 
-        print("\nDigite as características na ordem CORRETA.\n")
+            print("\nDigite as características na ordem CORRETA.\n")
+
+            for posicao, caracteristica in enumerate(caracteristicas, start=1):
+
+                resposta = input(f"Característica {posicao}: ").strip()
+
+                if resposta == "x":
+                    break
+                    
+                quantidaAssunto += 1
+
+                if resposta.lower() == caracteristica.lower():
+
+                    print("Perfeito!\n")
+                    pontuação += 1
+
+                else:
+                    #Verifica quantas palavras foram acertadas caso tenha "errado"
+                    respostaLista = resposta.lower().split()
+
+                    caracteristicaLista = caracteristica.lower().split()
+
+                    iguais = set(caracteristicaLista) & set(respostaLista)
+
+                    porcentagem = (len(iguais)/len(caracteristicaLista))*100
+
+                    pontuação += len(iguais)/len(caracteristicaLista)
+
+                    print(f"Você acertou {len(iguais)} de {len(caracteristicaLista)} palavras... {porcentagem}%")
+
+                    print(f"Resposta CORRETA: {caracteristica}\n")
+
+                try:
+                    porcentagemTotal = (pontuação/quantidaAssunto)*100
+                except:
+                    porcentagemTotal = 0
 
 
-        for posicao, caracteristica in enumerate(caracteristicas, start=1):
+        else: #Forma não ordenada
 
-            resposta = input(f"Característica {posicao}: ").strip()
+            while len(caracteristicas) > 0:
 
-            if resposta == "x":
-                break
-                
-            quantidaAssunto += 1
+                resposta = input("Característica: ").strip().lower()
 
-            if resposta.lower() == caracteristica.lower():
+                if resposta == "x":
+                    break
 
-                print("Perfeito!\n")
-                pontuação += 1
+                restante = len(caracteristicas) - quantidaAssunto
 
-            else:
-                #Verifica quantas palavras foram acertadas caso tenha "errado"
-                respostaLista = resposta.lower().split()
-                caracteristicaLista = caracteristica.lower().split()
-                iguais = set(caracteristicaLista) & set(respostaLista)
-                porcentagem = (len(iguais)/len(caracteristicaLista))*100
-                pontuação += len(iguais)/len(caracteristicaLista)
-                print(f"Você acertou {len(iguais)} de {len(caracteristicaLista)} palavras... {porcentagem}%")
+                melhorCaracteristica = ""
 
-                print(f"Resposta CORRETA: {caracteristica}\n")
+                maiorQuantidade = 0
+
+
+                for caracteristica in caracteristicas:
+
+                    respostaLista = resposta.split()
+
+                    caracteristicaLista = caracteristica.lower().split()
+
+                    iguais = set(caracteristicaLista) & set(respostaLista)
+
+
+                    if len(iguais) > maiorQuantidade:
+
+                        maiorQuantidade = len(iguais)
+
+                        melhorCaracteristica = caracteristica
+
+
+                if melhorCaracteristica == "":
+
+                    print("Nenhuma característica parecida encontrada.\n")
+
+                    continue
+
+
+                caracteristicaLista = melhorCaracteristica.lower().split()
+
+                quantidadePalavras = len(caracteristicaLista)
+
+
+                if quantidadePalavras > 0:
+
+                    porcentagem = (maiorQuantidade / quantidadePalavras) * 100
+
+                    pontuação += maiorQuantidade / quantidadePalavras
+
+                else:
+
+                    porcentagem = 0
+
+
+                if resposta == melhorCaracteristica.lower():
+
+                    print("Perfeito!\n")
+
+                    quantidaAssunto += 1
+
+                elif maiorQuantidade > 0:
+
+                    print(f"Você acertou {maiorQuantidade} de {quantidadePalavras} palavras... {porcentagem:.1f}%")
+
+                    quantidaAssunto += 1
+
+                    print(f"Resposta CORRETA: {melhorCaracteristica}. ainda faltam {restante}\n")
+
+                else:
+
+                    print(f"Nenhuma palavra correspondente encontrada. ainda faltam {restante}")
+
+                    print(f"Resposta CORRETA: {melhorCaracteristica}\n")
+
+
+                caracteristicas.remove(melhorCaracteristica)
 
         try:
             porcentagemTotal = (pontuação/quantidaAssunto)*100
         except:
             porcentagemTotal = 0
 
-        print(f"\nFim do sub-assunto... Sua pontuação foi de {pontuação:.2f} de {quantidaAssunto} total / {porcentagemTotal}%")
+        print(f"\nFim do sub-assunto... Sua pontuação foi de {pontuação:.2f} de {quantidaAssunto} total / {porcentagemTotal:.1f}%")
 
 #Programa principal
 with open("assuntos.json", "r", encoding="utf-8") as arquivo:
@@ -123,7 +215,11 @@ while assunto != "x":
 
         if assunto.lower() == "direito constitucional":
 
-            modo_descobrir_caracteristicas(assunto, dados)
+            modo_descobrir_caracteristicas(assunto, dados, True)
+
+        elif assunto.lower() == "português":
+
+            modo_descobrir_caracteristicas(assunto, dados, False)
 
         else:
 
